@@ -22,6 +22,7 @@ c = a
 
 print(a is b)  # False – same content, different memory
 print(a is c)  # True – same object in memory
+
 ✅ Use Case
 Use is when you need to verify if two variables refer to the same object in memory.
 
@@ -60,7 +61,9 @@ Use in to check whether a value exists within a sequence or iterable.
       | Does this element exist in  |
       | the collection?             |
       +------------------------------+
+
 🏁 Final Thoughts
+
 ✅ Use **is** when checking if two variables refer to the same object in memory.
 
 ✅ Use **in** when checking if a value exists inside a collection.
