@@ -34,9 +34,11 @@ The in operator checks whether a specific value exists inside a container like a
 You’re checking whether your name is listed on a guest list. You don't care where the list came from—just whether your name is in it.
 
 🧪 Python Example
+
 languages = ["Python", "JavaScript", "Java"]
 print("Python" in languages)   # True
 print("C++" in languages)      # False
+
 ✅ Use Case
 Use in to check whether a value exists within a sequence or iterable.
 
